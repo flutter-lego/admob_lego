@@ -59,7 +59,7 @@ class _NewViewState extends State<NewView> {
       body: Center(
         child: _isAdLoaded
             ? Container(
-                height: 300,
+                height: 1000,
                 child: AdWidget(ad: _nativeAd!),
               )
             : Text('Loading ad...'),
